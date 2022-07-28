@@ -1,18 +1,39 @@
-body {
-    background: black;
+html {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: fixed;   
 }
 
 h1 {
     text-align: center;
-    color: red;
+    color: lime;
     font-size: 50px;
     font-family: Helvetica, sans-serif;
+    font-style: italic;
 }
 
-h2 {
-    font-size: 25px;
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
+div.navbar {
     text-align: center;
+    padding-top: 25px;
+}
+
+a {
+    padding-left: 50px;    
+    padding-right: 50px;
+    font-size: 25px;
+    font-style: italic;
     color: lime;
+}
+
+a#contact:hover {
+    color: hotpink;
+}
+
+a#about:hover {
+    color: blueviolet;
+}
+
+a#projects:hover {
+    color: #FF3131;
 }
