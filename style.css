@@ -3,6 +3,9 @@ html {
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: fixed;   
+
+    width: auto;
+    height: auto;
 }
 
 h1 {
