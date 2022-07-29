@@ -1,6 +1,8 @@
 html {
     background: url("background.jpg") no-repeat center fixed;
-    background-size: cover;      
+    background-size: cover;   
+    width: auto;
+    height: auto;   
 }
 
 h1 {
