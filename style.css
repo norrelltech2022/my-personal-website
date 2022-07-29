@@ -1,11 +1,6 @@
 html {
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;    
-    background-position: fixed;   
-
-    width: auto;
-    height: auto;
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;      
 }
 
 h1 {
